@@ -1,7 +1,0 @@
-{
-  "orbit_data": "https://celestrak.org/NORAD/documentation/gp-data-formats.php",
-  "celestrak_usage": "https://celestrak.org/usage-policy.php",
-  "nasa_gibs": "https://nasa-gibs.github.io/gibs-api-docs/access-basics/",
-  "nasa_eonet": "https://eonet.gsfc.nasa.gov/docs/v3",
-  "osm_tiles_policy": "https://operations.osmfoundation.org/policies/tiles/"
-}
