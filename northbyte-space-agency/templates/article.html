@@ -1,0 +1,3 @@
+{% extends 'base.html' %}{% block title %}{{ post.title }}{% endblock %}
+{% block content %}<section class="page-hero article-hero"><div class="container article-narrow"><a class="back-link" href="/journal">← Back to journal</a><div class="eyebrow">{{ post.category }} / {{ post.created_at[:10] }}</div><h1>{{ post.title }}</h1><p>{{ post.excerpt }}</p></div></section>
+<section class="section"><div class="container article-narrow"><article class="article-content">{{ post.body | render_markdown | safe }}</article><div class="article-bottom"><a href="/journal" class="btn btn-outline">← All articles</a></div></div></section>{% endblock %}
